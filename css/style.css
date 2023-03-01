@@ -1,0 +1,128 @@
+.slick-track
+{
+    display: flex !important;
+}
+
+.slick-slide
+{
+    height: inherit !important;
+}
+
+
+/* ========= start navbar ========= */
+.logo-image{
+    width: 60px;
+}
+nav .nav-item{
+    padding: 1rem .2rem !important;
+}
+@media (min-width:992px) {
+    nav .nav-link{
+        font-size: 14px !important;
+        line-height: 21px !important;
+        font-weight: 400 !important;
+        padding: 4px 25px !important;
+        border-radius: 25px !important;
+        border: 2px solid transparent !important;
+    }
+    .navbar-nav .nav-link.active, .nav-link:hover {
+        color: #009ad8 !important;
+        border: 2px solid #009ad8 !important;
+        cursor: pointer !important;
+    }
+}
+@media (max-width:992px) {
+    nav .nav-item:first-child .nav-link{
+        color: #009ad8 !important;
+    }
+    nav ul{
+        background-color: #262936 !important;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    nav li:not(:last-child){
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+}
+.navbar-toggler:hover{
+    border-color: #009ad8 !important;
+}
+.navbar-toggler:hover i{
+    color: #009ad8 !important;
+}
+
+/* ========= end navbar ========= */
+
+/* ========= start header ========= */
+header{
+    background-image: url("../image/banner.png");
+    /* background-position: center; */
+    background-size: cover;
+    min-height: 350px;
+}
+.header-input{
+    background-color: #1e202b !important;
+}
+.header-input::placeholder{
+    color:#bfc1c8;
+}
+/* ========= end header ========= */
+
+/* ========= start weather ========= */
+.responsive{
+    margin-top: -150px;
+}
+.box-one .section-two h2{
+    font-size: 90px;
+    line-height: 135px;
+    color: white;
+    font-weight: 700;
+}
+.main .box-one  .section-head,
+.main .box-three  .section-head{
+    background: rgba(0, 0, 0, 0.1);
+}
+.main .box-one,
+.main .box-three{
+    background: rgb(50, 53, 68);
+}
+.main .box-two .image,
+.main .box-three .image{
+    width: 70px;
+    margin: auto;
+}
+.main .box-two .section-head{
+    background: rgba(0, 0, 0, 0.1);
+}
+.main .box-two{
+    background-color: rgb(38, 41, 54) ;
+}
+/* ========= end weather ========= */
+
+/* ========= start footer ========= */
+footer{
+    background: rgb(38, 41, 54);
+}
+footer a{
+    color: #009ad8;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(30, 32, 43);
+    transition: .3s 0s all linear;
+}
+footer a:hover{
+    color: white;
+    background: #009ad8
+}
+@media (max-width:992px) {
+    .input-group{
+        width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+}
+/* ========= end footer ========= */
